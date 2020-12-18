@@ -183,8 +183,6 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 有时ttnode重启后uid会变化，但不一定。
 
-我目前的uid为 5b3ec704860a635e5472c3f20900b65c
-
 获得uid方法：
 	
 	进入容器
