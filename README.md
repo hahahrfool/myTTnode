@@ -65,11 +65,6 @@ esxi 甜糖教程
 	
 	每天凌晨2点才计算生成了多少星星。
 	Openwrt也有自动收集插件，luci-app-ttnode
-
-
-		
-提供的加速卡
-	http://www.chinadsl.net/thread-168038-1-1.html
 	
 	
 	
