@@ -70,7 +70,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	https://www.right.com.cn/FORUM/thread-4034075-1-1.html
 	
 	每天凌晨2点才计算生成了多少星星。
-	Openwrt也有自动收集插件，luci-app-ttnode
+	Openwrt也有自动收集插件，luci-app-ttnode, 链接在： https://github.com/jerrykuku/luci-app-ttnode
 	
 	
 	
