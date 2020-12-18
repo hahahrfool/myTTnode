@@ -25,7 +25,8 @@
 
 	
 ## esxi docker 甜糖教程 （直接在电脑上按docker也可以，不会的加群问我）
-	https://www.right.com.cn/forum/thread-4057352-1-1.html
+
+https://www.right.com.cn/forum/thread-4057352-1-1.html
 	
 	这里我分区时，无法按回车执行默认分区，需要按p，回车，再输入1，然后再继续操作。
 	
