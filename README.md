@@ -41,7 +41,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	./usr/node/ttnode -p /mnts 时，报
 	node [8715fc923550c5f76ca3536905691b00,/mnts] exist,error = 11 错误
 	
-	但是还是产生了uid。不知道行不行。
+	但是还是产生了uid。不知道行不行。经后来测试，行。产生这个错误的原因是因为 ttnode之前已经启动过一遍（自启动），然后因为这次为了获取uid又启动了一遍，所以它就提示了一下。
 	
 	虚拟机名为 ttnode, ip 192.168.0.120, 用户名密码都是root
 	
