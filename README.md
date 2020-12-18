@@ -62,7 +62,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	我安了 file, curl, vim（删除了原来指向busybox的vi，新创建vi指向vim），nodejs, npm， man-page，man-doc
 	
 
-甜糖定时获取星星
+### 甜糖定时获取星星（Python+server酱微信推送）
 	https://github.com/744287383/AutomationTTnode
 	
 	好像必须每天登陆app收取星星。
@@ -70,7 +70,8 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	https://www.right.com.cn/FORUM/thread-4034075-1-1.html
 	
 	每天凌晨2点才计算生成了多少星星。
-	Openwrt也有自动收集插件，luci-app-ttnode, 链接在： https://github.com/jerrykuku/luci-app-ttnode
+	
+### Openwrt也有自动收集插件，luci-app-ttnode, 链接在： https://github.com/jerrykuku/luci-app-ttnode
 	
 	
 	
