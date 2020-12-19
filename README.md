@@ -41,9 +41,11 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	./usr/node/ttnode -p /mnts 时，报
 	node [8715fc923550c5f76ca3536905691b00,/mnts] exist,error = 11 错误
 	
-	但是还是产生了uid。不知道行不行。经后来测试，行。产生这个错误的原因是因为 ttnode之前已经启动过一遍（自启动），然后因为这次为了获取uid又启动了一遍，所以它就提示了一下。
+	但是还是产生了uid。不知道行不行。经后来测试，没问题，能正常使用。
 	
-	虚拟机名为 ttnode, ip 192.168.0.120, 用户名密码都是root
+	产生这个错误的原因是因为 ttnode之前已经启动过一遍（自启动），然后因为这次为了获取uid又启动了一遍，所以它就提示了一下。
+	
+	虚拟机的用户名密码都是root
 	
 	看了，里面用的
 		qemu-aarch64-static
@@ -58,8 +60,6 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	vi /etc/apk/repositories 即可查看源。
 	
 	我觉得可以用这个系统进行轻度作业。
-	
-	我安了 file, curl, vim（删除了原来指向busybox的vi，新创建vi指向vim），nodejs, npm， man-page，man-doc
 	
 
 ### 甜糖定时获取星星（Python+server酱微信推送）
@@ -76,6 +76,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	
 	
 我是从第一天的凌晨试的，从凌晨到早8点基本不会产生缓存；从8点到12点产生了1G缓存；
+我家的宽带是联通200Mbps，上传30Mbps，具有动态公网ipv6地址。
 	
 	晚六点查看依然是1G，但是整机功率变为了60w（原来50w）。
 	晚七点查看变为2Ｇ
@@ -88,7 +89,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	
 	所以我准备时机成熟时，关闭一下ttnode，然后多给他分配一个cpu核心，看看耗电情况会不会改善。
 
-我个人还有个疑问。这个dmz是不是不一定非要启动？因为我有ipv6
+我个人还有个疑问。这个dmz是不是不一定非要启动？因为我有ipv6。但是为了保险我还是启用了。
 
 
 ## 我看了，它主要是一个32位的程序，叫ttnode。
@@ -101,7 +102,9 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 		
 	它使用挂载到 /mnt/ttnode 的磁盘。里面存储其上传所需的缓存。
 	
-	它在第一次运行docker时，使用了 --restart=always，使得该容器可以在docker重启后自动启动。而docker的服务已经配置好了，运行service docker status就可以看到。
+	它在第一次运行docker时，使用了 --restart=always，使得该容器可以在docker重启后自动启动。
+	
+		而docker的服务已经配置好了，运行service docker status就可以看到。
 	
 		所以开启后，docker先自动运行，然后内部的arm容器自动运行，然后cron自动运行，最后运行ttnode。
 		
@@ -172,11 +175,14 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 第四天晚，我用我妈手机号注册了甜糖，绑定了我妈的手机号和微信号。同时填入了我主号的邀请码，应该能给我主号增加收益吧。
 
 	后来才反应过来，它是获得所推广的好友的星愿收益的5%，所以自己还真没法刷，除非拿我手机登我妈的甜糖天天挂着。
+	所以我希望通过写教程的方式，能让大家也用上甜糖。
 	
 这个甜糖之所以好玩，就在于它既可以用路由器，又可以用docker，还可以用手机。比一般的入门门槛低。
 
 第五天早，收集188星愿（第四天131，第三天119，第二天92，第一天0）。第五天，离上次关机24小时后，果然在线率变为100%，节点评级也回归1
 第五天晚，缓存变为11G。
+
+第六天早，收集226星愿，终于超过2元了。第六天上午十点，缓存变为12G
 
 
 # 其他
