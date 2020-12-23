@@ -235,6 +235,10 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 个人认为，netstat显示的不全. 毕竟我是用的这个esxi的虚拟机是个alpine的，用的busybox，而busybox所实现的netstat功能并不完整。
 
+然而用apk add 了 iproute2后调用ss命令，还是只显示了这些ipv4点连接。
+
+还有一个问题，会不会创建docker的人本身就只开启了ipv4？我不是很懂，但是只要不是掌控在自己手里，就可能是问题的来源。
+
 
 ### 关于流量变化
 
