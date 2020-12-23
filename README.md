@@ -26,8 +26,15 @@
 根据说明，用手机时，我在光猫开启了Upnp。后来在虚拟机上安装了docker的ttnode，又在光猫开启了DMZ，然而开启后，似乎光猫的UPnP功能就失效了，甜糖显示网络不正常。没招，只好直接用docker。
 
 	
-### 各种docker
+## 各种docker
 https://hub.docker.com/search?q=ttnode&type=image
+
+关于docker，我建议使用在hub.docker.com能查到的，更新频繁的，能显示dockerfile的。因为这样公开透明，更新好支持好。
+
+我安装的那个esxi的虚拟机镜像，日后使用，感觉不是特别顺手，如果你不动电脑的话，可以。但是如果你懂，目前我认为这个docker比较好：
+
+https://hub.docker.com/r/ericwang2006/ttnode
+
 
 ## esxi docker 甜糖教程 （直接在电脑上按docker也可以，不会的加群问我）
 
