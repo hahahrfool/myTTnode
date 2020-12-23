@@ -246,7 +246,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 还有一个问题，会不会创建docker的人本身就只开启了ipv4？我不是很懂，但是只要不是掌控在自己手里，就可能是问题的来源。
 
-另外我还不满的一点就是，上面教程提供的虚拟机为alpine, 但是里面docker又是一个ubuntu，你说能不能整的统一一点。
+另外我还不满的一点就是，上面教程提供的虚拟机为alpine, 但是里面docker又是一个ubuntu。（后来发现，是因为由于alpine的libc库有问题不能跑ttnode。但是那也可以用debian啊，ubuntu尺寸多大）
 
 我在docker内部试验了，docker内部是能ping6通国际ipv6地址的。看来基本已经确认，ttnode使用的是ipv4. **那如此说来我光猫的问题出在DMZ故障，反正光猫垃圾就是**
 
