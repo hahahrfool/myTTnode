@@ -231,6 +231,10 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 使用netstat -nape 或者 -np, 可以发现，甜糖使用ipv4的31121端口，通过tcp协议，向各个未知的ip地址的随机端口发送大量数据。
 
+不用n参数时，还意外获取到了 adsl-pool.jlccptt.net.cn这个域名。
+
+个人认为，netstat显示的不全. 毕竟我是用的这个esxi的虚拟机是个alpine的，用的busybox，而busybox所实现的netstat功能并不完整。
+
 
 ### 关于流量变化
 
