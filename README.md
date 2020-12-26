@@ -290,6 +290,8 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 当然，还是不排除杀熟的可能。比如说，甜糖会优先给新ip流量。我每次重启光猫，IP都应该变化了。可能只有变了ttnode才会给流量。
 
+下午五点，缓存29G，流量坚挺
+
 
 ### 关于流量变化
 
@@ -310,7 +312,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	./usr/node/ttnode -p /mnts
 	
 	
-类似甜糖的产品：网心云，京东云无线宝
+类似甜糖的产品：网心云，京东云无线宝, 繁星，polar chain,
 
 网心云也可以跑在各种平台
 	https://post.m.smzdm.com/p/az5gp4zn/
