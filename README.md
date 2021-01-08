@@ -35,6 +35,7 @@ https://hub.docker.com/search?q=ttnode&type=image
 
 https://hub.docker.com/r/ericwang2006/ttnode
 
+就是说，按下面恩山论坛的那个教程进行配置，但是下载docker时，使用上面👆这个docker
 
 ## esxi docker 甜糖教程 （直接在电脑上按docker也可以，不会的加群问我）
 
