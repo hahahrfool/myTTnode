@@ -365,6 +365,10 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 另外学到一个linux命令iftop，用它就可以监控甜糖的流量，不错。（只适用于linux运行或者docker运行的甜糖）
 
+目前我用的命令为
+sudo iftop  -nNB -m 30M -P
+
+
 # 其他
 
 有时ttnode重启后uid会变化，但不一定。
