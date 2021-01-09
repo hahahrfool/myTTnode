@@ -363,6 +363,8 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 
 我又异想天开了，会不会家里收到了EMP电磁冲击？因为同时我的iphone也突然出现故障，白屏并不断重启。现在似乎又好了。不过这一切都有待进一步观察。
 
+另外学到一个linux命令iftop，用它就可以监控甜糖的流量，不错。（只适用于linux运行或者docker运行的甜糖）
+
 # 其他
 
 有时ttnode重启后uid会变化，但不一定。
