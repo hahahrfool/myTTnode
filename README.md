@@ -8,6 +8,8 @@
 
 我会持续更新此博客，如果你希望观察一段时间，可以watch或star一下这篇文章。
 
+电报群 https://t.me/shadowrocket_unofficial
+
 
 ## 简介
 
