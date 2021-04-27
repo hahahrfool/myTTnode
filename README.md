@@ -145,7 +145,7 @@ https://www.right.com.cn/forum/thread-4057352-1-1.html
 	
 	App里有个活动，我领了个30天的“电费卡”，说是每天50星愿保底收益。
 	
-	100颗星星等于1RMB，满10RMB可提现
+	100颗星星等于0.94RMB (已扣除税费)，满10RMB可提现
 	
 	
 ### 这个是用的docker+ qemu的方式。
